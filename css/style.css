@@ -1,0 +1,500 @@
+body {
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.main {
+  margin: 0 auto; /* 居中 */
+  padding-bottom: 50px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 60em;
+}
+.main-inner {
+  width: 100%;
+  margin-top: unset;
+}
+.header {
+  margin: 0 auto; /* 居中 */
+  border-bottom: unset;
+  width: 90%;
+}
+body {
+  background-image: unset;
+  background-attachment: unset;
+  background-size: 100%;
+}
+.menu .menu-item a {
+  font-weight: 300;
+  color: #555;
+}
+.page-post-detail .post-meta {
+  display: none;
+}
+@media (max-width: 767px) {
+  .box li {
+    width: 100%;
+  }
+  .title {
+    height: 200px;
+  }
+  .box span {
+    min-height: 80px;
+    border-right: unset;
+    font-size: 17px;
+  }
+  .box p {
+    border-right: unset;
+    font-size: 12px;
+  }
+  .posts-expand {
+    margin: unset;
+  }
+  div#comments.comments.v {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .container .main-inner {
+    width: 100%;
+  }
+}
+.footer {
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* for comment modules*/
+.vwrap {
+  margin: 0 auto; /* 居中 */
+  width: 100%;
+}
+.vempty {
+  margin: 0 auto; /* 居中 */
+  width: 100%;
+}
+.vh {
+  margin: 0 auto; /* 居中 */
+  width: 100%;
+}
+.power {
+  margin: 0 auto; /* 居中 */
+  width: 100%;
+}
+.vinfo {
+  margin: 0 auto; /* 居中 */
+  width: 100%;
+}
+.vcard {
+  margin: 0 auto; /* 居中 */
+  width: 100%;
+}
+#page-nav {
+  margin: block-margin auto;
+  background: #f2f2f2;
+  text-align: center;
+  color: color-grey;
+  overflow: hidden;
+}
+#page-nav a,
+#page-nav span {
+  padding: 10px 20px;
+  line-height: 1;
+  height: 2ex;
+}
+#page-nav a {
+  color: color-grey;
+  text-decoration: none;
+}
+#page-nav a:hover {
+  background: color-grey;
+  color: #222;
+}
+#page-nav .prev {
+  float: center;
+}
+#page-nav .next {
+  float: center;
+}
+#page-nav .page-number {
+  display: inline-block;
+}
+@media mq-mobile {
+  #page-nav .page-number {
+    display: none;
+  }
+}
+#page-nav .current {
+  color: color-default;
+  font-weight: bold;
+}
+#page-nav .space {
+  color: color-border;
+}
+.header {
+  margin-top: 2em;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  max-width: 58em;
+}
+.header .blog-title .logo {
+  color: #555;
+  font-size: 2em;
+  font-family: ChaletComprimeMilanSixty;
+  text-decoration: none;
+}
+.header .menu {
+  margin: 0;
+  padding: 0;
+}
+.header .menu .menu-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header .menu .menu-item-link {
+  color: #555;
+  text-decoration: none;
+}
+.header .menu .menu-item-link:hover {
+  color: #368ccb;
+}
+.post {
+  margin: 1em auto;
+  padding: 1em 1.2em;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+}
+.posts .post:first-child {
+  margin-top: 0;
+}
+.posts .post-title {
+  font-size: 1.25em;
+  color: #555;
+}
+.posts .post-title .post-title-link {
+  color: #368ccb;
+  text-decoration: none;
+}
+.posts .post-content {
+  color: #555;
+}
+.posts .post-content a {
+  color: #368ccb;
+  text-decoration: none;
+}
+.posts .post-meta {
+  color: #bababa;
+}
+.posts .post-meta-item-text {
+  color: #bababa;
+}
+#article-nav {
+  margin-top: 1.5em;
+  position: relative;
+}
+@media mq-normal {
+  #article-nav {
+    margin: block-margin 0;
+  }
+  #article-nav:before {
+    content: "";
+    border-radius: 50%;
+    background: color-border;
+    box-shadow: 0 1px 2px #fff;
+  }
+}
+.article-nav-link-wrap {
+  text-decoration: none;
+  text-shadow: 0 1px #fff;
+  color: color-grey;
+  box-sizing: border-box;
+  margin-top: block-margin;
+  text-align: center;
+}
+.article-nav-link-wrap:hover {
+  color: color-default;
+}
+@media mq-normal {
+  .article-nav-link-wrap {
+    width: 50%;
+    margin-top: 0;
+  }
+}
+@media mq-normal {
+  #article-nav-newer {
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+  }
+}
+@media mq-normal {
+  #article-nav-older {
+    float: right;
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+.article-nav-title {
+  font-size: 1em;
+  line-height: 2em;
+}
+.main-box {
+  margin-top: -0.5em;
+  background: #fff;
+  color: #555;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+}
+.con-box {
+  background: #fff;
+  margin: 0 auto; /* 居中 */
+  padding: auto;
+}
+.sub-box1 {
+  float: left;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  display: inline;
+}
+.sub-box1 .imgbox0 {
+  margin-top: 0.2em;
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+  position: relative;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+}
+.sub-box2 {
+  float: left;
+  width: 50%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  display: inline;
+}
+.sub-box2 .imgbox0 {
+  margin-top: 0.2em;
+  margin-left: 0.6em;
+  margin-right: 0.3em;
+  position: relative;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+}
+.sub-box2 .imgbox1 {
+  margin-top: 0.2em;
+  margin-left: 0.3em;
+  margin-right: 0.6em;
+  position: relative;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+}
+.sub-box3 {
+  float: left;
+  width: 33.33%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  display: inline;
+}
+.sub-box3 .imgbox0 {
+  margin-top: 0.2em;
+  margin-left: 0.6em;
+  margin-right: 0.2em;
+  position: relative;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+}
+.sub-box3 .imgbox1 {
+  margin-top: 0.2em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  position: relative;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+}
+.sub-box3 .imgbox2 {
+  margin-top: 0.2em;
+  margin-left: 0.2em;
+  margin-right: 0.6em;
+  position: relative;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+}
+.box li {
+  float: top;
+  width: 100%;
+  height: auto;
+/* height: 360px; */
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  display: inline;
+}
+.box li span {
+  display: block;
+  padding: 4% 7% 10% 7%;
+  min-height: 80px;
+  background: #fff;
+  color: #555;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box p {
+  display: block;
+  background: #fff;
+  color: #555;
+  font-size: 12px;
+  font-family: 'SwisMedium';
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+.box span strong {
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+}
+img.imgitem {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  color: #fff;
+}
+div#posts.posts-expand {
+  border: unset;
+  padding: unset;
+  margin-bottom: 0.3em;
+}
+.posts-expand .post-body img {
+  padding: 0px !important;
+}
+.posts-expand .post-title {
+  margin: 0 auto; /* 居中 */
+  width: 100%;
+  text-align: center;
+}
+.gallery-title {
+  margin-bottom: 0.25em;
+  display: inline-block;
+  vertical-align: middle;
+  font: 1.8em/1.5em 'ChaletComprimeMilanSixty';
+  text-shadow: #000 3px 4px 5px;
+/* 字体阴影 */
+  background-position: center center !important;
+  box-sizing: border-box;
+  background-size: cover auto;
+/* background-size: 100% auto !important; */
+  -webkit-box-sizing: border-box;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  border: unset;
+  height: 8em;
+  cursor: unset !important;
+}
+.btn-more-posts {
+  margin-top: 0.25em;
+  margin-left: 5%;
+  width: 90%;
+  border-color: #bcbcbc;
+  border-top-style: dotted;
+  border-left: unset;
+  border-right: unset;
+  border-bottom: unset;
+  display: inline-block;
+  vertical-align: middle;
+  font: 1em/1em 'ChaletComprimeMilanSixty';
+  background-size: 100% auto !important;
+  background-color: #fff;
+  color: #bcbcbc;
+  text-align: center;
+  height: 5em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.btn-end-posts {
+  margin-top: -0.25em;
+  display: inline-block;
+  vertical-align: middle;
+  font: 1em/1em 'ChaletComprimeMilanSixty';
+  background-size: 100% auto !important;
+  background-color: #fff;
+  border: unset;
+  color: #bcbcbc;
+  width: 100%;
+  text-align: center;
+  height: 5em;
+}
+.archive {
+  margin: 1em auto;
+  padding: 1em 1.2em;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+}
+.archive .post-archive {
+  list-style: none;
+  padding: 0;
+}
+.archive .post-archive .post-item {
+  margin: 5px 0;
+}
+.archive .post-archive .post-item .post-date {
+  display: inline-block;
+  margin-right: 10px;
+  color: #bababa;
+}
+.archive .post-archive .post-item .post-title {
+  color: #368ccb;
+  text-decoration: none;
+}
