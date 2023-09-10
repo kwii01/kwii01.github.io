@@ -83,7 +83,7 @@
         }
     
         // 腾讯云存储桶访问链接
-        var xmlLink="";
+        var xmlLink="s0rk58q9a.bkt.clouddn.com";
         xmlDoc=loadXMLDoc(xmlLink);
         var urls = xmlDoc.getElementsByTagName('Key');
         var date = xmlDoc.getElementsByTagName('LastModified');
@@ -91,7 +91,7 @@
         var content = new Array();
         var index1 = -1;
         var index2 = 0;
-        var pageTitle = "kawaii_home";
+        var pageTitle = "kawaiii";
         for (var i = 0; i < urls.length; i++) {
             var bucket = urls[i].innerHTML;
             var length = bucket.indexOf('/');
